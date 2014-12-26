@@ -41,3 +41,8 @@ include device/asus/grouper/BoardConfigCommon.mk
 TARGET_RECOVERY_FSTAB = device/asus/grouper/fstab.grouper
 
 MALLOC_IMPL := dlmalloc
+
+# Custom Kernel Toolchain
+TARGET_GCC_VERSION_ARM := 4.9-sm
+# Clang optimizations
+SYMMETRY := true
