@@ -44,5 +44,8 @@ MALLOC_IMPL := dlmalloc
 
 # Custom Kernel Toolchain
 TARGET_GCC_VERSION_ARM := 4.9-sm
-# Clang optimizations
+# Graphite optimizations
 SYMMETRY := true
+GRAPHITE_OPTS := true
+STRICT_ALIASING := true
+
