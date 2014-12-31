@@ -7,7 +7,7 @@
   {
    "repository":  "TheMuppets/proprietary_vendor_asus",
    "target_path": "vendor/asus",
-   "branch":      "lp5.0"
+   "branch":      "cm-12.0"
   },
   {
    "repository":  "TheMuppets/proprietary_vendor_broadcom",
