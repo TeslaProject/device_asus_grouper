@@ -43,9 +43,9 @@ TARGET_RECOVERY_FSTAB = device/asus/grouper/fstab.grouper
 MALLOC_IMPL := dlmalloc
 
 # Custom Kernel Toolchain
-TARGET_GCC_VERSION_ARM := 4.9-sm
+TARGET_GCC_VERSION_ARM := 4.9-linaro
+
 # Graphite optimizations
 SYMMETRY := true
 GRAPHITE_OPTS := true
 STRICT_ALIASING := true
-
