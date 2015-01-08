@@ -49,3 +49,6 @@ TARGET_GCC_VERSION_ARM := 4.9-linaro
 SYMMETRY := true
 GRAPHITE_OPTS := true
 STRICT_ALIASING := true
+
+# Create changelog
+VALIDUS_CHANGELOG := true
